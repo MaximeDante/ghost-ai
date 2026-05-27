@@ -4,19 +4,20 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Feature 01: Design System — complete
+- Feature 02: Editor Chrome — complete
 
 ## Current Goal
 
-- Define the immediate implementation goal here.
+- Build editor canvas and layout page using the navbar + sidebar shells.
 
 ## Completed
 
 - Feature 01: Design system — shadcn/ui initialized, 7 UI primitives added (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea), lucide-react installed, lib/utils.ts with cn() created, globals.css rewritten as dark-only with project color tokens.
+- Feature 02: Editor chrome — `components/editor/editor-navbar.tsx` (fixed navbar with sidebar toggle, PanelLeftOpen/PanelLeftClose icons, left/center/right sections) and `components/editor/project-sidebar.tsx` (floating overlay, slides from left, Projects title + close button, My Projects/Shared tabs with empty states, full-width New Project button).
 
 ## In Progress
 
-- None yet.
+- None.
 
 ## Next Up
 
