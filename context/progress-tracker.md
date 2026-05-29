@@ -4,7 +4,7 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Feature 02: Editor Chrome — complete
+- Feature 03: Auth — complete
 
 ## Current Goal
 
@@ -14,6 +14,7 @@ Update this file whenever the current phase, active feature, or implementation s
 
 - Feature 01: Design system — shadcn/ui initialized, 7 UI primitives added (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea), lucide-react installed, lib/utils.ts with cn() created, globals.css rewritten as dark-only with project color tokens.
 - Feature 02: Editor chrome — `components/editor/editor-navbar.tsx` (fixed navbar with sidebar toggle, PanelLeftOpen/PanelLeftClose icons, left/center/right sections) and `components/editor/project-sidebar.tsx` (floating overlay, slides from left, Projects title + close button, My Projects/Shared tabs with empty states, full-width New Project button).
+- Feature 03: Auth — `proxy.ts` at project root (protected-first, public routes: `/`, `/sign-in`, `/sign-up`); `ClerkProvider` wrapping root layout with `dark` theme and CSS variable overrides; `app/(auth)/layout.tsx` (two-panel: left branding panel hidden on mobile, right centered form); `app/(auth)/sign-in/[[...sign-in]]/page.tsx` and `app/(auth)/sign-up/[[...sign-up]]/page.tsx`; `app/page.tsx` redirects authenticated users to `/editor` and unauthenticated to `/sign-in`; `UserButton` added to editor navbar right section; `@clerk/ui` installed; Clerk sign-in/sign-up/after-redirect env vars added.
 
 ## In Progress
 
